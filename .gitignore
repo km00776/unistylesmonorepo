@@ -66,3 +66,5 @@ ios/build/
 
 # Misc
 *.tgz
+ios/
+android/
