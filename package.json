@@ -1,4 +1,9 @@
 {
-  "name": "UnistylesMonoRepo",
-  "packageManager": "yarn@4.9.1"
+  "name": "monorepo",
+  "packageManager": "yarn@4.9.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }

@@ -1,3 +1,4 @@
+# Yarn v3+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -5,13 +6,63 @@
 !.yarn/sdks
 !.yarn/versions
 
-# Whether you use PnP or not, the node_modules folder is often used to store
-# build artifacts that should be gitignored
-node_modules
+# Uncomment if using zero-installs
+# !.yarn/cache
 
-# Swap the comments on the following lines if you wish to use zero-installs
-# In that case, don't forget to run `yarn config set enableGlobalCache false`!
-# Documentation here: https://yarnpkg.com/features/caching#zero-installs
-
-#!.yarn/cache
+# PnP files (used if PnP is enabled)
 .pnp.*
+.pnp
+
+# Node modules (still used in nodeLinker: node-modules mode)
+node_modules/
+
+# Logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.idea/
+.vscode/
+*.sw?
+
+# Output folders
+dist/
+build/
+out/
+.expo/
+.expo-shared/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# TypeScript / Babel / Next / Expo
+*.tsbuildinfo
+.next/
+expo-debug.*
+*.expo/
+
+# Metro bundler cache
+.metro-cache/
+haul-debug.log
+
+# React Native
+android/.gradle
+android/app/build
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+
+# Environment files (if used)
+.env*
+.env.*.local
+
+# Misc
+*.tgz
