@@ -1799,6 +1799,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@km00776/design-tokens@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@km00776/design-tokens@npm:1.0.3"
+  checksum: 10c0/9661730073c495afa0d61baa48f54c3fb2fa74fb3985fc6654465948c308fbd6b509f69ddaffdd38cb357ac33f2cd54ad3ae033200da863694519dd51ea3797c
+  languageName: node
+  linkType: hard
+
 "@napi-rs/wasm-runtime@npm:^0.2.11":
   version: 0.2.12
   resolution: "@napi-rs/wasm-runtime@npm:0.2.12"
@@ -3664,6 +3671,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@expo/vector-icons": "npm:^14.1.0"
+    "@km00776/design-tokens": "npm:1.0.3"
     "@react-navigation/bottom-tabs": "npm:^7.3.10"
     "@react-navigation/elements": "npm:^2.3.8"
     "@react-navigation/native": "npm:^7.1.6"
@@ -3687,10 +3695,13 @@ __metadata:
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     react-native: "npm:0.79.5"
+    react-native-edge-to-edge: "npm:^1.6.2"
     react-native-gesture-handler: "npm:~2.24.0"
+    react-native-nitro-modules: "npm:^0.27.3"
     react-native-reanimated: "npm:~3.17.4"
     react-native-safe-area-context: "npm:5.4.0"
     react-native-screens: "npm:~4.11.1"
+    react-native-unistyles: "npm:^3.0.7"
     react-native-web: "npm:~0.20.0"
     react-native-webview: "npm:13.13.5"
     typescript: "npm:~5.8.3"
@@ -7743,6 +7754,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-edge-to-edge@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "react-native-edge-to-edge@npm:1.6.2"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/4c9defc3075aedff2bcef2a39ed97d037f220342baa95d374f3c68dee9e4493429f2f8f3b3dbb7ba355cdfb89a00d6400218c90944cc80e84283d3eb8646c584
+  languageName: node
+  linkType: hard
+
 "react-native-gesture-handler@npm:~2.24.0":
   version: 2.24.0
   resolution: "react-native-gesture-handler@npm:2.24.0"
@@ -7774,6 +7795,16 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 10c0/87d20b900aded7d44c90afb946a7aa03c23a94ca3dd547bdddc2303b85357e4aab22567a57b19f1558d6c8be7058e3dcf34faa1e15182d1604f90974266d9a1d
+  languageName: node
+  linkType: hard
+
+"react-native-nitro-modules@npm:^0.27.3":
+  version: 0.27.3
+  resolution: "react-native-nitro-modules@npm:0.27.3"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/245d2661d6edfd681ebf469f4cd8e0ac148cf56fc19bac79857ce27f4581e0add67659ef6dc85baef155d171433003e937b6c4e330622eb84f6f29c68276a85b
   languageName: node
   linkType: hard
 
@@ -7822,6 +7853,23 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 10c0/88a33ba419bd571cc318e80d25eb172f5829677f2dd80dcb69cbeaa6a35ba26214e0e82af87baa375182afe41a276e8ef1a9d13b826f662f3a389982492c2879
+  languageName: node
+  linkType: hard
+
+"react-native-unistyles@npm:^3.0.7":
+  version: 3.0.7
+  resolution: "react-native-unistyles@npm:3.0.7"
+  peerDependencies:
+    "@react-native/normalize-colors": "*"
+    react: "*"
+    react-native: ">=0.76.0"
+    react-native-edge-to-edge: "*"
+    react-native-nitro-modules: "*"
+    react-native-reanimated: "*"
+  peerDependenciesMeta:
+    react-native-reanimated:
+      optional: true
+  checksum: 10c0/a382cfbba855c8323dc411b3e950cc1bf3b308fafe98294b54a36cfe102793d6ebb4287652c98bdba993af347ca50754fa0e20345497740af2086f1846a47815
   languageName: node
   linkType: hard
 
