@@ -1,6 +1,5 @@
-import { darkTheme, lightTheme } from "@km00776/design-tokens";
 import { StyleSheet } from "react-native-unistyles";
-
+import { lightTheme, darkTheme } from "@km00776/design-tokens";
 const appThemes = {
   light: lightTheme,
   dark: darkTheme,

@@ -1799,10 +1799,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@km00776/design-tokens@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@km00776/design-tokens@npm:1.0.3"
-  checksum: 10c0/9661730073c495afa0d61baa48f54c3fb2fa74fb3985fc6654465948c308fbd6b509f69ddaffdd38cb357ac33f2cd54ad3ae033200da863694519dd51ea3797c
+"@km00776/design-tokens@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@km00776/design-tokens@npm:1.0.7"
+  checksum: 10c0/1be4dbea5526bc13ce52915ddd65f05d76be8e71becf1ba4953ef42240de92b3a64a29df405417f1efeb9e793c2fb19bc94b5054cbbb351714d3119cce793e0c
   languageName: node
   linkType: hard
 
@@ -3671,7 +3671,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@expo/vector-icons": "npm:^14.1.0"
-    "@km00776/design-tokens": "npm:1.0.3"
+    "@km00776/design-tokens": "npm:1.0.7"
     "@react-navigation/bottom-tabs": "npm:^7.3.10"
     "@react-navigation/elements": "npm:^2.3.8"
     "@react-navigation/native": "npm:^7.1.6"
