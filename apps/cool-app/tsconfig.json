@@ -11,6 +11,7 @@
     "**/*.tsx",
     "**/*.d.ts",        // include all declaration files
     "expo-env.d.ts",
+    "declarations.d.ts",
     ".expo/types/**/*.ts"
   ]
 }
